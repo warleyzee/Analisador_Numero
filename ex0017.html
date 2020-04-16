@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizando Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Numero</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número (Entre 1 e 100) 
+                <input type="number" name="numero" id="txtn">
+               <input type="button" value="Adicionar" id="add" onclick="adicionar()">
+            </p>
+        </div>
+
+        <div>
+
+            <select name="txt" id="txt" size="10"></select>
+
+            <p></p><input type="button" value="Finalizar" onclick="finalizar()"></p>
+        </div>
+        
+        <div id="resposta">
+
+        </div>
+    </section>
+
+    <footer>
+
+       <p>&copy; Warley Henrique </p>
+    </footer>
+
+    <script src="scripit.js"></script>
+    
+</body>
+</html>
